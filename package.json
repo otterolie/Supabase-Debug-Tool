@@ -1,0 +1,14 @@
+{
+  "name": "supabase-storage-test",
+  "version": "1.0.0",
+  "description": "Tools for testing Supabase storage functionality",
+  "type": "module",
+  "scripts": {
+    "test": "node test-supabase-storage.mjs",
+    "debug": "node debug-supabase-storage.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  }
+}
